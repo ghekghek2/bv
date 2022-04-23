@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>SEASIA</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo"><img src="images/logo.png" alt="LOGO"></div>
+            <div class="push-left">
+              <button id="menu-toggler" data-class="menu-active" class="hamburger">
+                <span class="hamburger-line hamburger-line-top"></span>
+                <span class="hamburger-line hamburger-line-middle"></span>
+                <span class="hamburger-line hamburger-line-bottom"></span>
+              </button>
+          
+              <!--  Menu compatible with wp_nav_menu  -->
+              <ul id="primary-menu" class="menu nav-menu">
+                <li class="menu-item current-menu-item"><a class="nav__link"  href="#">Home</a></li>
+                <li class="menu-item dropdown"><a class="nav__link"  href="#">About</a>
+                   <ul class="sub-nav" >
+                    <li><a class="sub-nav__link" href="#">link 1</a></li>
+                    <li><a class="sub-nav__link" href="#">link 2</a></li>
+                    <li><a class="sub-nav__link" href="#">link 3 - long link - long link - long link</a></li>
+                  </ul>
+          
+                </li>
+                <li class="menu-item dropdown"><a class="nav__link"  href="#">Contact</a>
+                  <ul class = "sub-nav">
+                    <li><a class="sub-nav__link"  href="#">link 1</a></li>
+                    <li><a class="sub-nav__link"  href="#">link 2</a></li>
+                    <li><a class="sub-nav__link"  href="#">link 3 - long link - long link - long link</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item "><a class="nav__link"  href="#">Blog</a>
+                 
+                </li>
+              </ul>
+          
+          
+            </div>
+          </nav>
+    </div>
+
+
+<div class="container">
+    <div class="hero">
+       <div>
+           <img src="images/pic.jpg" alt="">
+       </div>
+       <div class="content-container">
+           <img class="content" src="images/logo.png" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae provident dolore quia accusantium ullam expedita necessitatibus omnis eveniet nemo!</p>
+       
+        </div>
+        
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#031d57" fill-opacity="1" d="M0,64L1440,224L1440,0L0,0Z"></path></svg>
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
